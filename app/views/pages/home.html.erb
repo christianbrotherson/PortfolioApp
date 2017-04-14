@@ -1,4 +1,26 @@
-<h1>Home</h1>
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Christian Brotherson</h3>
+          <%= render 'shared/nav' %>
+        </div>
+      </div>
 
-<%= link_to 'About', about_me_path %>
-<%= link_to 'Contact', contact_path %>
+      <div class="inner cover">
+        <h1 class="cover-heading">Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+          <%= link_to 'About Me', about_me_path, class: 'btn btn-lg btn-secondary' %>
+        </p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+         <%= copyright_generator %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -30,3 +30,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'view_tool_brotherson', '~> 0.1.1'
