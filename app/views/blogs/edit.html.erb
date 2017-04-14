@@ -2,5 +2,5 @@
 
 <%= render 'form', blog: @blog %>
 
-<%= link_to 'Show', @blog %> |
-<%= link_to 'Back', blogs_path %>
+<%= link_to fa_icon('arrow-left'), blog_path %> |
+<%= link_to fa_icon('trash'), @blog, method: :delete, data: {confirm: 'Are you sure?'} %> 
