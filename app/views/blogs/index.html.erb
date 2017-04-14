@@ -2,6 +2,10 @@
 
 <h1>Blogs</h1>
 
+<%= link_to 'New Post', new_blog_path %>
+
+<hr>
+
 <table>
   <thead>
     <tr>
@@ -22,6 +26,8 @@
   </tbody>
 </table>
 
+<%= paginate @blogs %>
+
 <br>
 
-<%= link_to 'New Post', new_blog_path %>
+
